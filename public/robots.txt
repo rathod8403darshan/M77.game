@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://m77apk.in/sitemap.xml
