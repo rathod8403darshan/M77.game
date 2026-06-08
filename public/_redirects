@@ -1,0 +1,4 @@
+# Netlify / Cloudflare Pages redirects
+http://m77apk.in/* https://www.m77apk.in/:splat 301
+https://m77apk.in/* https://www.m77apk.in/:splat 301
+/index.html / 301

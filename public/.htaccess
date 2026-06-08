@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.m77apk.in/$1 [R=301,L]
+
+# Force www (canonical host)
+RewriteCond %{HTTP_HOST} ^m77apk\.in$ [NC]
+RewriteRule ^(.*)$ https://www.m77apk.in/$1 [R=301,L]
+
+# index.html duplicates → homepage
+RewriteRule ^index\.html$ / [R=301,L]
