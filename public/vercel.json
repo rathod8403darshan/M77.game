@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "m77apk.in" }],
+      "destination": "https://www.m77apk.in/:path*",
+      "permanent": true
+    }
+  ]
+}
